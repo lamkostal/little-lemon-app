@@ -1,10 +1,12 @@
+import BookingForm from "./BookingForm";
+
 const BookingPage = () => {
   return (
-    <div>
+    <section className="container page-container">
       <h1>Booking Page</h1>
       <p>Welcome to the booking page. Here you can book your appointments.</p>
-      {/* Add booking form or components here */}
-    </div>
+      <BookingForm/>
+    </section>
   );
 }
 export default BookingPage;
